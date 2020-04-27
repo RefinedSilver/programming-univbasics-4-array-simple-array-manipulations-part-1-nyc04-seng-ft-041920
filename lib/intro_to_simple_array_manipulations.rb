@@ -8,7 +8,7 @@ def using_pop(array)
   array.pop()
 end
 def pop_with_args(array)
-  array.pop([0..-3].to_s)
+  array.pop(-2)
 end
 def using_shift(array)
   array.shift()
